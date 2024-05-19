@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+</head>
+<body>
+    <div id="conteudo">
+        <h1>Sobre a API</h1>
+        <p>Esta API foi criada para fornecer informações sobre livros. Ela permite que você:</p>
+        <ul>
+            <a href="/livros"><li>Obtenha uma lista de livros disponíveis</li></a>
+            <a href="/livros-especifico"><li>Veja detalhes sobre um livro específico</li></a>
+            <li>Adicione novos livros</li>
+            <li>Atualize informações de livros existentes</li>
+            <li>Remova livros da lista</li>
+        </ul>
+        <p>Esta API é ideal para gerenciar bibliotecas digitais ou qualquer aplicação que precise lidar com informações de livros.</p>
+        <p><a href="/">Voltar para a página principal</a></p>
+    </div>
+</body>
+</html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin: 0 20px;
+}
+a:hover{
+    color: orange;
+    transform: scale(1.1);
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteudo {
+    gap: 50px;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ul li{
+    list-style: none;
+}
+
+</style>
